@@ -10,6 +10,11 @@ indent_style = tab
 indent_size = 4
 
 # Markdown
-[*.md]
+[*.{md,markdown}]
+indent_style = space
+indent_size = 2
+
+# YAML
+[*.{yml,yaml}]
 indent_style = space
 indent_size = 2
