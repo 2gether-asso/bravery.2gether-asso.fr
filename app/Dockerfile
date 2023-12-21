@@ -15,6 +15,9 @@ FROM nginx:alpine AS nginx_upstream
 
 FROM node_upstream AS npm
 
+# Create app directory
+WORKDIR /app
+
 # Source code should be mounted here
 VOLUME /app
 
