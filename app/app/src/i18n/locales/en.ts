@@ -1,6 +1,8 @@
 const defaultLocale =
 [
 	'What is {0}?',
+	'See the upcoming events',
+	'See last year\'s ranking',
 	'Visit our website',
 	'Join our Discord',
 ] as const
