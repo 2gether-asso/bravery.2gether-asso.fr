@@ -13,6 +13,7 @@ const defaultLocale =
 	'Do not get discouraged anymore, because in addition to a prize for the first place of the 2024 tournaments, each participation in a tournament earns you one more chance to win the consolation prize, which will also be revealed at the end of 2024!',
 	'So, it\'s time for you to show your bravery! And good luck to everyone!',
 	// Agenda modal
+	'Here is the list of games that will be played during tournaments in 2024:',
 	'January',
 	'February',
 	'March',

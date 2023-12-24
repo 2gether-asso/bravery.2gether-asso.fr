@@ -21,6 +21,8 @@ const locale =
 	'So, it\'s time for you to show your bravery! And good luck to everyone!':
 		'Alors, il est temps pour vous de montrer votre bravoure ! Et bonne chance à tous !',
 	// Agenda modal
+	'Here is the list of games that will be played during tournaments in 2024:':
+		'Voici la liste des jeux qui seront joués lors des tournois en 2024 :',
 	'January': 'Janvier',
 	'February': 'Février',
 	'March': 'Mars',
