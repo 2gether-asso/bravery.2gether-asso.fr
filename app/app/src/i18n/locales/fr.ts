@@ -7,6 +7,7 @@ const locale =
 	'See last year\'s ranking': 'Voir le classement de l\'année dernière',
 	'Visit our website': 'Visite notre site web',
 	'Join our Discord': 'Rejoins notre Discord',
+	// Info modal
 	'Every 1st Friday of the month: a tournament!':
 		'Chaque 1er Vendredi du mois : un tournoi !',
 	'Discover the 12 tournaments of this year right now!':
@@ -19,6 +20,23 @@ const locale =
 		'Ne vous découragez plus, car en plus d\'un lot pour le premier des tournois 2024, chaque participation à un tournoi vous fait gagner une chance de plus de gagner le lot de consolation, qui sera lui aussi dévoilé fin 2024 !',
 	'So, it\'s time for you to show your bravery! And good luck to everyone!':
 		'Alors, il est temps pour vous de montrer votre bravoure ! Et bonne chance à tous !',
+	// Agenda modal
+	'January': 'Janvier',
+	'February': 'Février',
+	'March': 'Mars',
+	'April': 'Avril',
+	'May': 'Mai',
+	'June': 'Juin',
+	'July': 'Juillet',
+	'August': 'Août',
+	'September': 'Septembre',
+	'October': 'Octobre',
+	'November': 'Novembre',
+	'December': 'Décembre',
+	'Game of complicity': 'Jeu de la complicité',
+	'MYSTERY GAME': 'JEU MYSTÈRE',
+	'Blind Test of hell': 'Blind Test de l\'enfer',
+	'via {0} if possible.': 'via {0} si possible.',
 } as const
 
 // Static type check

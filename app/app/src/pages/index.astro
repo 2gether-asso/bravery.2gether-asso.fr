@@ -10,6 +10,8 @@ import background from '~/assets/background.png'
 import logo from '~/assets/logo.png'
 import icon from '~/assets/icon.png'
 import closeSvg from '~/assets/icons/close.svg?raw'
+import userSvg from '~/assets/icons/user.svg?raw'
+import usersSvg from '~/assets/icons/users.svg?raw'
 import agendaSvg from '~/assets/icons/agenda.svg?raw'
 import bookmarkSvg from '~/assets/icons/bookmark.svg?raw'
 import discordSvg from '~/assets/icons/discord.svg?raw'
@@ -57,12 +59,69 @@ const title = '2GETHER Bravery'
 			</div>
 			<div class="modal-content">
 				<h2>{_('See the upcoming events')}</h2>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus cursus magna at libero tristique, faucibus ullamcorper orci volutpat. Integer aliquet nulla ut ante porttitor faucibus. Sed faucibus consectetur pellentesque. Proin malesuada purus vel posuere sollicitudin. Donec vel efficitur magna. Nullam vel convallis tortor. Sed eu scelerisque purus, vitae iaculis felis.
-				</p>
-				<p>
-					Donec suscipit nisi et tincidunt eleifend. Mauris sed massa et magna interdum semper a quis neque. Etiam posuere volutpat mauris, consectetur cursus justo viverra vel. Nunc hendrerit sapien nec augue porta, sed congue est ornare.
-				</p>
+				<ul>
+					<li>
+						<Fragment set:html={ usersSvg } />
+						<em>{_('January')}</em> —
+						<strong>Worms W.M.D</strong>
+					</li>
+					<li>
+						<Fragment set:html={ userSvg } />
+						<em>{_('February')}</em> —
+						<strong>Tabletop Simulator</strong>
+					</li>
+					<li>
+						<Fragment set:html={ usersSvg } />
+						<em>{_('March')}</em> —
+						<strong>Fallen Kingdoms</strong>
+					</li>
+					<li>
+						<Fragment set:html={ userSvg } />
+						<em>{_('April')}</em> —
+						<strong>Lethal Company</strong>
+					</li>
+					<li>
+						<Fragment set:html={ usersSvg } />
+						<em>{_('May')}</em> —
+						<strong>Golf with your Friends</strong>
+					</li>
+					<li>
+						<Fragment set:html={ userSvg } />
+						<em>{_('June')}</em> —
+						<strong>Witch It</strong>
+					</li>
+					<li>
+						<Fragment set:html={ usersSvg } />
+						<em>{_('July')}</em> —
+						<strong>{_('Game of complicity')}</strong>
+					</li>
+					<li>
+						<Fragment set:html={ userSvg } />
+						<em>{_('August')}</em> —
+						<strong>{_('MYSTERY GAME')}</strong>
+					</li>
+					<li>
+						<Fragment set:html={ usersSvg } />
+						<em>{_('September')}</em> —
+						<strong>League Of Legends</strong>
+					</li>
+					<li>
+						<Fragment set:html={ userSvg } />
+						<em>{_('October')}</em> —
+						<strong>{_('Blind Test of hell')}</strong>
+					</li>
+					<li>
+						<Fragment set:html={ usersSvg } />
+						<em>{_('November')}</em> —
+						<strong>2GETHER QUIZ</strong>,
+						<Fragment set:html={_('via {0} if possible.', '<a href="https://games.2gether-asso.fr">2GETHER GAMES</a>')} />
+					</li>
+					<li>
+						<Fragment set:html={ userSvg } />
+						<em>{_('December')}</em> —
+						<strong>{_('MYSTERY GAME')}</strong>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
